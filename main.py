@@ -8,6 +8,7 @@ def analyze_sentiment(text):
     return result["label"]
 
 if __name__ == "__main__":
-    text = input("Enter a sentence: ")
-    sentiment = analyze_sentiment(text)
-    print(f"Sentiment: {sentiment}")
+    while(True):
+        text = input("Enter a sentence: ")
+        sentiment = analyze_sentiment(text)
+        print(f"Sentiment: {sentiment}")
