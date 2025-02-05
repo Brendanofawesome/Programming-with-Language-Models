@@ -1,3 +1,4 @@
+#pip install transformers torch
 from transformers import pipeline
 
 # Load a model that supports Positive, Neutral, and Negative
